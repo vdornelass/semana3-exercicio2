@@ -1,11 +1,66 @@
 [
-  { "id": "q1", "pergunta": "Qual a velocidade segura em tempestade na rota direta?", "esperado": ["12"] },
-  { "id": "q2", "pergunta": "E na rota protegida, qual a velocidade segura em tempestade?", "esperado": ["15"] },
-  { "id": "q3", "pergunta": "Qual a reserva mínima de combustível?", "esperado": ["15%"] },
-  { "id": "q4", "pergunta": "Qual o tamanho mínimo do lote de compra de combustível?", "esperado": ["5"] },
-  { "id": "q5", "pergunta": "Quanto custa e quanto dura o reparo do motor?", "esperado": ["24", "12"] },
-  { "id": "q6", "pergunta": "Qual navio chega primeiro ao porto de destino?", "esperado": ["S3-CORAL"] },
-  { "id": "q7", "pergunta": "Algum navio está impedido de zarpar? Qual e por quê?", "esperado": ["S1-FAROL"] },
-  { "id": "q8", "pergunta": "Qual a velocidade máxima permitida em nevoeiro?", "esperado": ["não encontrado"] },
-  { "id": "q9", "pergunta": "Qual a capital do Brasil?", "esperado": ["fora do escopo"] }
+  {
+    "id": "q1",
+    "pergunta": "Qual a velocidade segura em tempestade na rota direta?",
+    "esperado": [
+      "12"
+    ]
+  },
+  {
+    "id": "q2",
+    "pergunta": "E na rota protegida, qual a velocidade segura em tempestade?",
+    "esperado": [
+      "15"
+    ]
+  },
+  {
+    "id": "q3",
+    "pergunta": "Qual a reserva mínima de combustível?",
+    "esperado": [
+      "15%"
+    ]
+  },
+  {
+    "id": "q4",
+    "pergunta": "Qual o tamanho mínimo do lote de compra de combustível?",
+    "esperado": [
+      "5"
+    ]
+  },
+  {
+    "id": "q5",
+    "pergunta": "Quanto custa e quanto dura o reparo do motor?",
+    "esperado": [
+      "24",
+      "12"
+    ]
+  },
+  {
+    "id": "q6",
+    "pergunta": "Qual navio chega primeiro ao porto de destino?",
+    "esperado": [
+      "S3-CORAL"
+    ]
+  },
+  {
+    "id": "q7",
+    "pergunta": "Algum navio está impedido de zarpar? Qual e por quê?",
+    "esperado": [
+      "S1-FAROL"
+    ]
+  },
+  {
+    "id": "q8",
+    "pergunta": "Qual a velocidade máxima permitida em nevoeiro?",
+    "esperado": [
+      "não encontrado"
+    ]
+  },
+  {
+    "id": "q9",
+    "pergunta": "Qual a capital do Brasil?",
+    "esperado": [
+      "fora do escopo"
+    ]
+  }
 ]

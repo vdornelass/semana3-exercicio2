@@ -1,5 +1,5 @@
 from src.graph.builder import build_graph
-from src.utils.langfuse_client import flush, run_config
+from src.infra.langfuse_client import flush, run_config
 
 
 def main():
