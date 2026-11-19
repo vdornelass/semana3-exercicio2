@@ -12,7 +12,6 @@ def format_output(state: State) -> dict:
     fontes = ", ".join(fontes_unicas)
 
     resultado = (
-        f"Pergunta: {state['pergunta']}\n"
         f"Resposta: {state['resposta']}\n"
         f"Fontes: {fontes}"
     )

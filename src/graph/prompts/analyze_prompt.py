@@ -15,7 +15,8 @@ ANALYZE_PROMPT = ChatPromptTemplate.from_messages(
             "3. Para os navios com `reserva_ok=True`, chame `calcular_eta_horas` usando a "
             "distância e a velocidade efetiva retornada por `velocidade_efetiva`.\n"
             "4. Na resposta final, responda à pergunta listando o ETA de todos os navios "
-            "elegíveis, os navios bloqueados com o motivo, e a conclusão.",
+            "elegíveis, os navios bloqueados com o motivo, e a conclusão.\n"
+            "toda resposta deve ser baseada somente no texto recuperado e nas regras de calculo",
         ),
         ("human", "Navios (extraídos do relatório):\n{frota}\n\nPergunta: {pergunta}"),
     ]
